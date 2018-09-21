@@ -21,8 +21,20 @@ function div(x, y) {
 var sum = add(11, 22)
 console.log(sum)
 
+var diff = sub(99, 11)
+console.log(diff)
+
+if (sum > diff) {
+    console.log(true)
+} else if (sum == diff) {
+    console.log("correct")
+} else {
+    console.log("confused")
+}
+
 console.log(sub(44, 2))
 console.log(mul(5, 6))
 
 const div2 = div(40, 5)
 console.log(div2)
+
