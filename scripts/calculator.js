@@ -24,11 +24,17 @@ console.log(sum)
 var diff = sub(99, 11)
 console.log(diff)
 
+var mul = mul(5, 5)
+
+
 if (sum > diff) {
     console.log(true)
 } else if (sum == diff) {
     console.log("correct")
-} else {
+} else if (sum < mul) {
+    console.log(false)
+}
+else {
     console.log("confused")
 }
 
