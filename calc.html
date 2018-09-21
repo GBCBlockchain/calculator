@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GBC Blockchain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+
+	 <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+</head>
+
+<body>
+   <div id="calculator">
+        <div class="display">
+            <div id="display"> ready </div>
+        </div><!--end display-->
+     
+        <div class="operation">
+          <div onclick="btnplus()">+</div>
+          <div onclick="btnminus()">-</div>
+          <div onclick="btnmultiply()">x</div>
+          <div onclick="btndivide()">÷</div>
+        </div>
+
+        <div class="buttons">
+            <div class="innerbuttons">
+              <div onclick="putdigit(7)">7</div>
+              <div onclick="putdigit(8)">8</div>
+              <div onclick="putdigit(9)">9</div>
+              <div onclick="putdigit(4)">4</div>
+              <div onclick="putdigit(5)">5</div>
+              <div onclick="putdigit(6)">6</div>
+              <div onclick="putdigit(1)">1</div>
+              <div onclick="putdigit(2)">2</div>
+              <div onclick="putdigit(3)">3</div>
+              <div onclick="putdigit(0)" id="button0">0</div>
+              <div onclick="btndecimal()">.</div>
+              <div onclick="btnAC()">AC</div>
+            </div>
+
+            <div onclick="btnequals()" class="equalsbutton">=</div>
+        </div>
+    </div>
+ 
+</body>
+</html>
