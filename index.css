@@ -28,11 +28,13 @@ body {
   color: white;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-  border: 0.5px solid black
+  border: 0.5px solid black;
+  font-size: 36px;
+  margin-right: 20px;
 }
 
 .display > p {
-  margin-right: 10%;
+  margin-right: 20px;
   font-size: 3em;
 }
 
